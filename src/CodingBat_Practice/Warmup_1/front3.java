@@ -11,8 +11,8 @@ front3("abc") → "abcabcabc"
 
      */
     public static void main(String[] args) {
-        System.out.println(front3("Java"));
-        System.out.println(front3(Chocolate));
+
+
 
     }
     public String front3(String str){
