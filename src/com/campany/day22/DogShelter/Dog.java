@@ -19,6 +19,10 @@ public class Dog {
         this.dogFoundHome = dogFoundHome;
     }
 
+    public Dog(String name, String breed, int age) {
+
+    }
+
     public int getDogId() {
         return dogId;
     }

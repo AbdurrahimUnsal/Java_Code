@@ -6,6 +6,7 @@ public class DogShelter {
 
 
     public void addDog() {
+        Dog dogInfo = null;
         for (Dog each : dogList) {
             if (each.getDogId() == dogInfo.getDogId()) {
                 System.out.println("WARNING! This dog id is already in our system!!");
@@ -29,6 +30,7 @@ public class DogShelter {
 
     public void searchDogId() {
         for (Dog each : dogList) {
+            int id = 0;
             if (each.getDogId() == id)
                 System.out.println(each.toString());
         }
@@ -37,6 +39,7 @@ public class DogShelter {
 
     public void updateHomeStatus() {
         boolean flag = false;
+        int id = 0;
         for (Dog each : dogList) {
             if (each.getDogId() == id)
                 flag = true;

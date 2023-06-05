@@ -1,2 +1,5 @@
-package javaCodingPractice;public class C28 {
+package javaCodingPractice;
+public class C28 {
+
+
 }
