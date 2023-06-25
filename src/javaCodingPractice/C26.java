@@ -3,7 +3,7 @@ package javaCodingPractice;
 public class C26 {
     /*
      Example 1: Asagidaki ciktiyi verecek kodu yaziniz
-                        Week: 1
+                          Week: 1
                           Day: 1
                           Day: 2
                           Day: 3

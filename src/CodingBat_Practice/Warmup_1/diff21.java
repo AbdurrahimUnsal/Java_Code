@@ -33,4 +33,5 @@ public class diff21 {
         }
         return n;
     }
+
 }

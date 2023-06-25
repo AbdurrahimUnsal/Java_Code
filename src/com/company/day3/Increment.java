@@ -1,15 +1,15 @@
 package com.company.day3;
-//import com.company.day1.Main;
+import com.company.day1.Main;
 public class Increment {
-   // main a = new main();
+    Main a = new Main();
 
-  //  public main getA() {
+    public Main getA() {
 
-    //    System.out.println("printaaa");
-    //    return a;
+        System.out.println("printaaa");
+        return a;
     }
 
- //   public static void main(String[] args) {
+//    public static void main(String[] args) {
 //
 //
 //        /**
@@ -34,4 +34,5 @@ public class Increment {
 //
 //
 //    }
+}
 

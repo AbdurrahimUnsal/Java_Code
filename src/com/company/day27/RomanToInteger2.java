@@ -3,7 +3,7 @@ package com.company.day27;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RomanoInteger2 {
+public class RomanToInteger2 {
     /** 50 + 5 + 1+1+1 = 58
      *    L  V  I  I  I
      *  1000  100  1000  10  100  1  5
@@ -14,7 +14,7 @@ public class RomanoInteger2 {
      */
     public static void main(String[] args) {
 
-        System.out.println(convertToInteger("M2MXCIV"));
+        System.out.println(convertToInteger("MCMXCIV"));
     }
     public static int  convertToInteger(String roman) throws StringIndexOutOfBoundsException{ // CDV
         int total = 0;

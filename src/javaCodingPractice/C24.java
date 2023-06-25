@@ -2,7 +2,7 @@ package javaCodingPractice;
 
 public class C24 {
     public static void main(String[] args) {
-        int number = 598;
+        int number = 99999;
         int sum = 0;
 
         // Sayının rakamlarının toplamını hesaplama
