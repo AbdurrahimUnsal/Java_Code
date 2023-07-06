@@ -8,7 +8,7 @@ public class RemoveDuplicates {
         /**
          * a=[1,1,1,2,2,3,3,4]
          * b= [1,2,3,4]
-         * 
+         *
          */
 
         List<Integer> lst = new ArrayList<Integer>();
@@ -21,17 +21,18 @@ public class RemoveDuplicates {
         // int[] a={1,1,1,1,1,1,1,1,3,3,4,5,5,5};
         System.out.println(deleteDuplicates(lst));
     }
-    public static List<Integer> deleteDuplicates(List<Integer> arr){
+
+    public static List<Integer> deleteDuplicates(List<Integer> arr) {
         List<Integer> temp = new ArrayList<Integer>();
         int j = 0;
-        for (int i = 0; i <arr.size()-1 ; i++) {
-            if(!arr.get(i).equals(arr.get(i+1))){
-                temp.set(j++,arr.get(i));
+        for (int i = 0; i < arr.size() - 1; i++) {
+            if (!arr.get(i).equals(arr.get(i + 1))) {
+                temp.set(j++, arr.get(i));
             }
         }
         // temp[j++] = arr[l-1];
         return temp;
     }
-        
-    }
+
+}
 

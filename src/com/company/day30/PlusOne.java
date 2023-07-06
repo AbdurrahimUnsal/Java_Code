@@ -17,32 +17,32 @@ public class PlusOne {
 
     }
 
-        public int[] plusOne(int[] digits) {
-            int n = digits.length;
+    public int[] plusOne(int[] digits) {
+        int n = digits.length;
 
-            // Increment the least significant digit by one
-            digits[n - 1] += 1;
+        // Increment the least significant digit by one
+        digits[n - 1] += 1;
 
-            // Iterate from right to left
-            for (int i = n - 1; i > 0; i--) {
-                // If the current digit becomes 10, set it to 0 and carry over the 1
-                if (digits[i] == 10) {
-                    digits[i] = 0;
-                    digits[i - 1] += 1;
-                } else {
-                    // No carry over, break the loop
-                    break;
-                }
+        // Iterate from right to left
+        for (int i = n - 1; i > 0; i--) {
+            // If the current digit becomes 10, set it to 0 and carry over the 1
+            if (digits[i] == 10) {
+                digits[i] = 0;
+                digits[i - 1] += 1;
+            } else {
+                // No carry over, break the loop
+                break;
             }
-
-            // If the most significant digit becomes 10, create a new array with one additional digit
-            if (digits[0] == 10) {
-                int[] result = new int[n + 1];
-                result[0] = 1;
-                return result;
-            }
-
-            return digits;
         }
+
+        // If the most significant digit becomes 10, create a new array with one additional digit
+        if (digits[0] == 10) {
+            int[] result = new int[n + 1];
+            result[0] = 1;
+            return result;
+        }
+
+        return digits;
     }
+}
 
