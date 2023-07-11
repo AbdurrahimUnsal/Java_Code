@@ -1,6 +1,8 @@
 package com.company.day1;
 
 public class Main {
+    public boolean x;
+
     public static void main(String[] args) {
 
         System.out.println("HELLO WORLD!" );
